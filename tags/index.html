@@ -20,19 +20,17 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="ContributingChanges and improvements are more than welcome! Feel free to fork and open a pull request. Please follow the house rules to have a bigger chance of your contribution being merged. House ru">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/2048/CONTRIBUTING.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="标签">
+<meta property="og:url" content="http://example.com/tags/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="ContributingChanges and improvements are more than welcome! Feel free to fork and open a pull request. Please follow the house rules to have a bigger chance of your contribution being merged. House ru">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-06-05T11:56:08.707Z">
-<meta property="article:modified_time" content="2018-10-27T16:25:12.000Z">
+<meta property="article:published_time" content="2022-06-06T06:02:12.000Z">
+<meta property="article:modified_time" content="2022-06-06T06:05:41.212Z">
 <meta property="article:author" content="Charlie">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/2048/CONTRIBUTING">
+<link rel="canonical" href="http://example.com/tags/">
 
 
 <script id="page-configurations">
@@ -45,7 +43,7 @@
   };
 </script>
 
-  <title> | Hexo
+  <title>标签 | Hexo
 </title>
   
 
@@ -165,7 +163,7 @@
     <div class="post-block" lang="zh-CN">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">
+<h1 class="post-title" itemprop="name headline">标签
 </h1>
 
 <div class="post-meta">
@@ -179,30 +177,15 @@
       
       
       <div class="post-body">
-          <h1 id="Contributing"><a href="#Contributing" class="headerlink" title="Contributing"></a>Contributing</h1><p>Changes and improvements are more than welcome! Feel free to fork and open a pull request.</p>
-<p>Please follow the house rules to have a bigger chance of your contribution being merged.</p>
-<h2 id="House-rules"><a href="#House-rules" class="headerlink" title="House rules"></a>House rules</h2><h3 id="How-to-make-changes"><a href="#How-to-make-changes" class="headerlink" title="How to make changes"></a>How to make changes</h3><ul>
-<li>To make changes, create a new branch based on <code>master</code> (do not create one from <code>gh-pages</code> unless strictly necessary) and make them there, then create a Pull Request to master.<br> <code>gh-pages</code> is different from master in that it contains sharing features, analytics and other things that have no direct bearing with the game. <code>master</code> is the “pure” version of the game.</li>
-<li>If you want to modify the CSS, please edit the SCSS files present in <code>style/</code>: <code>main.scss</code> and others. Don’t edit the <code>main.css</code>, because it’s supposed to be generated.<br> In order to compile your SCSS modifications, you need to use the <code>sass</code> gem (install it by running <code>gem install sass</code> once Ruby is installed).<br> To run SASS, simply use the following command:<br> <code>sass --unix-newlines --watch style/main.scss</code><br> SASS will automatically recompile your css when changed.</li>
-<li><code>Rakefile</code> contains some tasks that help during development. Feel free to add useful tasks if needed.</li>
-<li>Please use 2-space indentation when editing the JavaScript. A <code>.jshintrc</code> file is present, which will help your code to follow the guidelines if you install and run <code>jshint</code>.</li>
-<li>Please test your modification thoroughly before submitting your Pull Request.</li>
-</ul>
-<h3 id="Changes-that-might-not-be-accepted"><a href="#Changes-that-might-not-be-accepted" class="headerlink" title="Changes that might not be accepted"></a>Changes that might not be accepted</h3><p>We have to be conservative with the core game. This means that some modifications won’t be merged, or will have to be evaluated carefully before being merged:</p>
-<ul>
-<li>Undo&#x2F;redo features</li>
-<li>Save&#x2F;reload features</li>
-<li>Changes to how the tiles look or their contents</li>
-<li>Changes to the layout</li>
-<li>Changes to the grid size</li>
-</ul>
-<h3 id="Changes-that-are-welcome"><a href="#Changes-that-are-welcome" class="headerlink" title="Changes that are welcome"></a>Changes that are welcome</h3><ul>
-<li>Bug fixes</li>
-<li>Compatibility improvements</li>
-<li>“Under the hood” enhancements</li>
-<li>Small changes that don’t have an impact on the core gameplay</li>
-</ul>
-
+          <div class="tag-cloud">
+            <div class="tag-cloud-title">
+              目前共计 2 个标签
+            </div>
+            <div class="tag-cloud-tags">
+              <a href="/tags/%E5%8A%9F%E8%83%BD/" style="font-size: 12px; color: #ccc">功能</a> <a href="/tags/%E5%8E%9F%E5%88%9B/" style="font-size: 30px; color: #111">原创</a>
+            </div>
+          </div>
+        
       </div>
       
       
@@ -263,7 +246,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Contributing"><span class="nav-number">1.</span> <span class="nav-text">Contributing</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#House-rules"><span class="nav-number">1.1.</span> <span class="nav-text">House rules</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#How-to-make-changes"><span class="nav-number">1.1.1.</span> <span class="nav-text">How to make changes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Changes-that-might-not-be-accepted"><span class="nav-number">1.1.2.</span> <span class="nav-text">Changes that might not be accepted</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Changes-that-are-welcome"><span class="nav-number">1.1.3.</span> <span class="nav-text">Changes that are welcome</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -286,8 +268,10 @@
         <span class="site-state-item-name">分类</span>
       </div>
       <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
         <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">标签</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
