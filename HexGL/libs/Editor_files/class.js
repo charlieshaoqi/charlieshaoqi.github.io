@@ -15,28 +15,28 @@
  * <p>
  * <code>
  *   var Fighter = gamecore.Base.extend('Fighter',
- *   &#123;
+ *   {
  *       // static (this is inherited as well)
  *       firingSpeed: 1000
- *   &#125;,
- *   &#123;
+ *   },
+ *   {
  *       // instance
  *
  *       hp: 0,
  *       lastFireTime: 0,
  *
  *       init: function(hp)
- *       &#123;
+ *       {
  *           this.hp = hp;
- *       &#125;,
+ *       },
  *
  *       fire: function()
- *       &#123;
+ *       {
  *           this._super(); // super methods!
  *
  *           // do firing!
- *       &#125;
- *   &#125;);
+ *       }
+ *   });
  *
  *  var gunship = new Fighter(100);
  * </code>
@@ -53,10 +53,10 @@
  * users to call _super in the init, as well as for normalizing parameters.
  * <code>
  *   setup: function()
- *   &#123;
+ *   {
  *      this.objectId = this.Class.totalObjects++;
  *      this.uniqueId = this.Class.fullName + ':' + this.objectId;
- *   &#125;
+ *   }
  * </code>
  */
 

@@ -14,7 +14,7 @@ gamecore.Class = $.Class;
  *
  * Unique ID and total objects:
  * <code>
- * var Fighter = gamecore.Base.extend('Fighter', &#123;&#125;, &#123;&#125;);
+ * var Fighter = gamecore.Base.extend('Fighter', {}, {});
  * var fighter1 = new Fighter();
  * var fighter2 = new Fighter();
  * fighter1.uniqueId;    // -> 'Fighter:0'

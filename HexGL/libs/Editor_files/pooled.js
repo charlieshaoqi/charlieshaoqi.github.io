@@ -23,25 +23,25 @@
  * Example:
  * <code>
  * Point = gamecore.Pooled('Point',
- * &#123;
+ * {
  *   // Static constructor
  *   create:function (x, y)
- *   &#123;
+ *   {
  *      var n = this._super();
  *      n.x = x;
  *      n.y = y;
  *      return n;
- *   &#125;
- * &#125;,
- * &#123;
+ *   }
+ * },
+ * {
  *    x:0, y:0,   // instance
  *
  *    init: function(x, y)
- *    &#123;
+ *    {
  *       this.x = x;
  *       this.y = y;
- *    &#125;
- * &#125;
+ *    }
+ * }
  * </code>
  * To then access the object from the pool, use create, instead of new. Then release it.
  * <code>
@@ -276,25 +276,25 @@ gamecore.Pool = gamecore.Base.extend('gamecore.Pool',
  * Example:
  * <code>
  * Point = gamecore.Pooled('Point',
- * &#123;
+ * {
  *   // Static constructor
  *   create:function (x, y)
- *   &#123;
+ *   {
  *      var n = this._super();
  *      n.x = x;
  *      n.y = y;
  *      return n;
- *   &#125;
- * &#125;,
- * &#123;
+ *   }
+ * },
+ * {
  *    x:0, y:0,   // instance
  *
  *    init: function(x, y)
- *    &#123;
+ *    {
  *       this.x = x;
  *       this.y = y;
- *    &#125;
- * &#125;
+ *    }
+ * }
  * </code>
  * To then access the object from the pool, use create, instead of new. Then release it.
  * <code>
