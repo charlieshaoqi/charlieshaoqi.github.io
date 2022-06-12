@@ -4,7 +4,7 @@
   <url>
     <loc>http://example.com/404/index.html</loc>
     
-    <lastmod>2022-06-11</lastmod>
+    <lastmod>2022-06-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/t-rex-runner/README.html</loc>
+    <loc>http://example.com/t-rex-runner/index.html</loc>
     
     <lastmod>2021-02-16</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/t-rex-runner/index.html</loc>
+    <loc>http://example.com/t-rex-runner/README.html</loc>
     
     <lastmod>2021-02-16</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/canvas-tetris/README.html</loc>
+    <loc>http://example.com/canvas-tetris/LICENSE.html</loc>
     
     <lastmod>2018-12-23</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/canvas-tetris/LICENSE.html</loc>
+    <loc>http://example.com/canvas-tetris/README.html</loc>
     
     <lastmod>2018-12-23</lastmod>
     
@@ -227,7 +227,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/t-rex/t-rex-runner-bot-gh-pages_auto_play/README.html</loc>
+    <loc>http://example.com/t-rex/t-rex-runner-bot-gh-pages_auto_play/index.html</loc>
     
     <lastmod>2015-03-28</lastmod>
     
@@ -236,7 +236,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/t-rex/t-rex-runner-bot-gh-pages_auto_play/index.html</loc>
+    <loc>http://example.com/t-rex/t-rex-runner-bot-gh-pages_auto_play/README.html</loc>
     
     <lastmod>2015-03-28</lastmod>
     
@@ -256,7 +256,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2022-06-11</lastmod>
+    <lastmod>2022-06-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -264,7 +264,7 @@
   
   <url>
     <loc>http://example.com/tags/%E5%8E%9F%E5%88%9B/</loc>
-    <lastmod>2022-06-11</lastmod>
+    <lastmod>2022-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -273,7 +273,7 @@
   
   <url>
     <loc>http://example.com/categories/%E7%BD%91%E9%A1%B5/</loc>
-    <lastmod>2022-06-11</lastmod>
+    <lastmod>2022-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
