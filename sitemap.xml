@@ -110,6 +110,15 @@
   </url>
   
   <url>
+    <loc>http://example.com/t-rex/t-rex-runner-gh-pages-2/index.html</loc>
+    
+    <lastmod>2020-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/t-rex/t-rex-runner-gh-pages-2/README.html</loc>
     
     <lastmod>2020-03-22</lastmod>
@@ -119,9 +128,9 @@
   </url>
   
   <url>
-    <loc>http://example.com/t-rex/t-rex-runner-gh-pages-2/index.html</loc>
+    <loc>http://example.com/canvas-tetris/LICENSE.html</loc>
     
-    <lastmod>2020-03-22</lastmod>
+    <lastmod>2018-12-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -138,15 +147,6 @@
   
   <url>
     <loc>http://example.com/canvas-tetris/index.html</loc>
-    
-    <lastmod>2018-12-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/canvas-tetris/LICENSE.html</loc>
     
     <lastmod>2018-12-23</lastmod>
     
