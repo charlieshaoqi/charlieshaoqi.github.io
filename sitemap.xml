@@ -2,18 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/posts/e0e6813a.html</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/posts/387162d6.html</loc>
     
-    <lastmod>2022-06-09</lastmod>
+    <lastmod>2022-06-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -92,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/t-rex-runner/index.html</loc>
+    <loc>http://example.com/t-rex-runner/README.html</loc>
     
     <lastmod>2021-02-16</lastmod>
     
@@ -101,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/t-rex-runner/README.html</loc>
+    <loc>http://example.com/t-rex-runner/index.html</loc>
     
     <lastmod>2021-02-16</lastmod>
     
@@ -164,7 +155,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/sao_lei/MineSweeper.html</loc>
+    <loc>http://example.com/sao_lei/README.html</loc>
     
     <lastmod>2018-08-09</lastmod>
     
@@ -173,7 +164,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/sao_lei/README.html</loc>
+    <loc>http://example.com/sao_lei/MineSweeper.html</loc>
     
     <lastmod>2018-08-09</lastmod>
     

@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>想法。。。</title>
-    <url>/posts/e0e6813a.html</url>
-    <content><![CDATA[<h2 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h2><p>我认为可以给这个网站加一些功能。不过，现在我还没想好。</p>
-]]></content>
-      <tags>
-        <tag>原创</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>发布第一篇个人博客</title>
     <url>/posts/387162d6.html</url>
     <content><![CDATA[<h2 id="我终于做出了这个！！！！"><a href="#我终于做出了这个！！！！" class="headerlink" title="我终于做出了这个！！！！"></a>我终于做出了这个！！！！</h2><p>（没什么可以写的。。。）</p>
 <p>如果你也想做一个像这样的个人博客，你可以参考以下网址：</p>
-<p>参考网址：</p>
-<p><a href="https://hexo.io/zh-cn/docs/index.html">https://hexo.io/zh-cn/docs/index.html</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/114195340">https://zhuanlan.zhihu.com/p/114195340</a></p>
-<p><a href="https://charlieshaoqi.github.io/">https://charlieshaoqi.github.io/</a></p>
+<!--
+参考网址：
+
+https://hexo.io/zh-cn/docs/index.html
+
+https://zhuanlan.zhihu.com/p/114195340
+
+https://charlieshaoqi.github.io/
+-->
 ]]></content>
       <categories>
         <category>网页</category>
