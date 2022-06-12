@@ -128,6 +128,15 @@
   </url>
   
   <url>
+    <loc>http://example.com/canvas-tetris/README.html</loc>
+    
+    <lastmod>2018-12-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/canvas-tetris/LICENSE.html</loc>
     
     <lastmod>2018-12-23</lastmod>
@@ -138,15 +147,6 @@
   
   <url>
     <loc>http://example.com/canvas-tetris/index.html</loc>
-    
-    <lastmod>2018-12-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/canvas-tetris/README.html</loc>
     
     <lastmod>2018-12-23</lastmod>
     
@@ -173,15 +173,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/t-rex/t-rex-runner-gh-pages-1/index.html</loc>
-    
-    <lastmod>2016-06-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/t-rex/t-rex-runner-gh-pages-1/README.html</loc>
     
     <lastmod>2016-06-18</lastmod>
@@ -191,7 +182,16 @@
   </url>
   
   <url>
-    <loc>http://example.com/t-rex/t-rex-runner-gh-pages-4/README.html</loc>
+    <loc>http://example.com/t-rex/t-rex-runner-gh-pages-1/index.html</loc>
+    
+    <lastmod>2016-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/t-rex/t-rex-runner-gh-pages-4/index.html</loc>
     
     <lastmod>2016-05-21</lastmod>
     
@@ -200,7 +200,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/t-rex/t-rex-runner-gh-pages-4/index.html</loc>
+    <loc>http://example.com/t-rex/t-rex-runner-gh-pages-4/README.html</loc>
     
     <lastmod>2016-05-21</lastmod>
     
