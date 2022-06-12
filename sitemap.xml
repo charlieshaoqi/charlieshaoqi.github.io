@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/404/index.html</loc>
-    
-    <lastmod>2022-06-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/posts/e0e6813a.html</loc>
     
     <lastmod>2022-06-09</lastmod>
@@ -227,7 +218,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/t-rex/t-rex-runner-bot-gh-pages_auto_play/index.html</loc>
+    <loc>http://example.com/t-rex/t-rex-runner-bot-gh-pages_auto_play/README.html</loc>
     
     <lastmod>2015-03-28</lastmod>
     
@@ -236,7 +227,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/t-rex/t-rex-runner-bot-gh-pages_auto_play/README.html</loc>
+    <loc>http://example.com/t-rex/t-rex-runner-bot-gh-pages_auto_play/index.html</loc>
     
     <lastmod>2015-03-28</lastmod>
     
