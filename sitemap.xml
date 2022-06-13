@@ -101,15 +101,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/canvas-tetris/index.html</loc>
-    
-    <lastmod>2018-12-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/canvas-tetris/README.html</loc>
     
     <lastmod>2018-12-23</lastmod>
@@ -119,7 +110,16 @@
   </url>
   
   <url>
-    <loc>http://example.com/sao_lei/MineSweeper.html</loc>
+    <loc>http://example.com/canvas-tetris/index.html</loc>
+    
+    <lastmod>2018-12-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/sao_lei/README.html</loc>
     
     <lastmod>2018-08-09</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/sao_lei/README.html</loc>
+    <loc>http://example.com/sao_lei/MineSweeper.html</loc>
     
     <lastmod>2018-08-09</lastmod>
     
