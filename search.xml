@@ -17,4 +17,28 @@
         <tag>原创</tag>
       </tags>
   </entry>
+  <entry>
+    <title>如何用Hexo+Github Page搭建免费博客</title>
+    <url>/posts/d2331b68.html</url>
+    <content><![CDATA[<h2 id="一、了解Hexo"><a href="#一、了解Hexo" class="headerlink" title="一、了解Hexo"></a>一、了解Hexo</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。<br>（好吧，Hexo官网是这么讲的）  </p>
+<p>它是个非常不错博客框架，有很多好看的主题可以应用在自己的博客上，这篇文章要讲述如何用hexo写博客并部署到github上就好了。</p>
+<p>如果你已经用hexo写了博客并部署到github上了，就不要再看这篇文章了，快去 <a href="https://hexo.io/themes/">https://hexo.io/themes/</a> 寻找好看的、心仪的主题吧！！！</p>
+<h2 id="二、配置需要的环境"><a href="#二、配置需要的环境" class="headerlink" title="二、配置需要的环境"></a>二、配置需要的环境</h2><p>先安装Node.js：   </p>
+<p><a href="https://nodejs.org/zh-cn/download/">https://nodejs.org/zh-cn/download/</a><br>Windows&#x2F;Macos&#x2F;Linux都兼容，下载好了后请自行根据提示安装。</p>
+<p>安装git：</p>
+<p>Macos（好像有自带的，不过版本较低，建议重新安装）:<br><a href="https://sourceforge.net/projects/git-osx-installer/">https://sourceforge.net/projects/git-osx-installer/</a></p>
+<p>Windows（请自行查看安装）:<br><a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></p>
+<p>Linux and Unix（请自行查看安装）：<br><a href="https://git-scm.com/download/linux">https://git-scm.com/download/linux</a></p>
+<p>安装Hexo:</p>
+<p>官网给的是这条命令：<br><code>npm install -g hexo-cli</code>    </p>
+<p>Mac用户注意了，要使用管理员权限，首先：“sudo -s”，回车，输入密码，再回车，然后：<br><code>npm install -g hexo-cli</code><br>回车，等待下载安装即可！<br>不过，作为熟悉 npm 的进阶用户，我仅局部安装 hexo 包。用这条命令:<br><code>npm install hexo</code>  </p>
+<h2 id="三、使用Hexo搭建博客"><a href="#三、使用Hexo搭建博客" class="headerlink" title="三、使用Hexo搭建博客"></a>三、使用Hexo搭建博客</h2><p>1、在桌面新建一个空文件夹blog（因为我之前自己搭建过一个名字一样，所以使用blog2演示）<br><img src="/images/blog2.png" alt="blog"></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>原创</tag>
+      </tags>
+  </entry>
 </search>
