@@ -20,66 +20,61 @@
   <entry>
     <title>如何用Hexo+Github Page搭建免费博客</title>
     <url>/posts/d2331b68.html</url>
-    <content><![CDATA[<h2 id="一、了解Hexo"><a href="#一、了解Hexo" class="headerlink" title="一、了解Hexo"></a>一、了解Hexo</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。<br>（好吧，Hexo官网是这么讲的）  </p>
+    <content><![CDATA[<h2 id="了解Hexo"><a href="#了解Hexo" class="headerlink" title="了解Hexo"></a>了解Hexo</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。<br>（好吧，Hexo官网是这么讲的）  </p>
 <p>它是个非常不错博客框架，有很多好看的主题可以应用在自己的博客上，这篇文章要讲述如何用hexo写博客并部署到github上就好了。</p>
 <p>如果你已经用hexo写了博客并部署到github上了，就不要再看这篇文章了，快去 <a href="https://hexo.io/themes/">https://hexo.io/themes/</a> 寻找好看的、心仪的主题吧！！！</p>
-<h2 id="二、配置需要的环境"><a href="#二、配置需要的环境" class="headerlink" title="二、配置需要的环境"></a>二、配置需要的环境</h2><h3 id="先安装Node-js："><a href="#先安装Node-js：" class="headerlink" title="先安装Node.js："></a>先安装Node.js：</h3><p><a href="https://nodejs.org/zh-cn/download/">https://nodejs.org/zh-cn/download/</a><br>Windows&#x2F;Macos&#x2F;Linux都兼容，下载好了后请自行根据提示安装。</p>
+<h2 id="配置需要的环境"><a href="#配置需要的环境" class="headerlink" title="配置需要的环境"></a>配置需要的环境</h2><h3 id="先安装Node-js："><a href="#先安装Node-js：" class="headerlink" title="先安装Node.js："></a>先安装Node.js：</h3><p><a href="https://nodejs.org/zh-cn/download/">https://nodejs.org/zh-cn/download/</a><br>下载好了后请自行根据提示安装。</p>
 <h3 id="安装git："><a href="#安装git：" class="headerlink" title="安装git："></a>安装git：</h3><p>Macos（好像有自带的，不过版本较低，建议重新安装）:<br><a href="https://sourceforge.net/projects/git-osx-installer/">https://sourceforge.net/projects/git-osx-installer/</a></p>
-<p>Windows（请自行查看安装）:<br><a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></p>
-<p>Linux and Unix（请自行查看安装）：<br><a href="https://git-scm.com/download/linux">https://git-scm.com/download/linux</a></p>
 <h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo:"></a>安装Hexo:</h3><p>官网给的是这条命令：<br><code>npm install -g hexo-cli</code>    </p>
 <p>Mac用户注意了，要使用管理员权限，首先：“sudo -s”，回车，输入密码，再回车，然后：<br><code>npm install -g hexo-cli</code><br>回车，等待下载安装即可！<br>不过，作为熟悉 npm 的进阶用户，我仅局部安装 hexo 包。用这条命令:<br><code>npm install hexo</code>  </p>
-<h2 id="三、使用Hexo搭建博客"><a href="#三、使用Hexo搭建博客" class="headerlink" title="三、使用Hexo搭建博客"></a>三、使用Hexo搭建博客</h2><p>1、在桌面新建一个空文件夹blog（因为我早就自己搭建过一个名字一样，所以使用blog2演示）<br><img src="/images/blog2.png" alt="blog"></p>
-<p>2、使用Hexo生成博客，初始化一个博客：<br>首先进入blog文件夹：<br><code>npx hexo init</code><br><img src="/images/hexo_init.png" alt="初始化"><br><img src="/images/hexo.png" alt="文件夹"></p>
-<p>3、启动hexo：<br><code>npx hexo s</code></p>
+<h2 id="使用Hexo搭建博客"><a href="#使用Hexo搭建博客" class="headerlink" title="使用Hexo搭建博客"></a>使用Hexo搭建博客</h2><h3 id="在桌面新建一个空文件夹blog"><a href="#在桌面新建一个空文件夹blog" class="headerlink" title="在桌面新建一个空文件夹blog"></a>在桌面新建一个空文件夹blog</h3><p>（因为我早就自己搭建过一个名字一样，所以使用blog2演示）<br><img src="/images/blog2.png" alt="blog"></p>
+<h3 id="使用Hexo生成博客，初始化一个博客"><a href="#使用Hexo生成博客，初始化一个博客" class="headerlink" title="使用Hexo生成博客，初始化一个博客"></a>使用Hexo生成博客，初始化一个博客</h3><p>首先进入blog文件夹：<br><code>npx hexo init</code><br><img src="/images/hexo_init.png" alt="初始化"><br><img src="/images/hexo.png" alt="文件夹中有什么"></p>
+<h3 id="启动hexo："><a href="#启动hexo：" class="headerlink" title="启动hexo："></a>启动hexo：</h3><p><code>npx hexo s</code></p>
 <p>由于我之前搭建过，所以提示4000端口被占用：<br><img src="/images/port_4000_error.png" alt="端口占用">  </p>
-<p>遇到这种情况不要着急，去网上找到了方法：</p>
-<p>解决方法如下：<br><code>sudo lsof -i:4000</code>，查看被占用进程的pid<br>再输<code>sudo kill -9 pid</code> （pid为上一步相应查看到的）<br>然后再继续<code>npx hexo s</code>，则成功。<br><img src="/images/port_4000_error%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.png" alt="端口占用解决方法"></p>
+<p>遇到这种情况不要着急，去网上找到了方法：<br>解决方法如下：<br><code>sudo lsof -i:4000</code>，查看被占用进程的pid<br>再输<code>sudo kill -9 pid</code> （pid为上一步相应查看到的）<br>然后再继续<code>npx hexo s</code>，则成功。<br><img src="/images/port_4000_error%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.png" alt="端口占用解决方法"></p>
 <p>在浏览器输入：<a href="http://localhost:4000，可查看到默认生成了一篇博文：">http://localhost:4000，可查看到默认生成了一篇博文：</a><br><img src="/images/%E5%88%9D%E5%A7%8B.png" alt=" ">  </p>
-<p>4、如何新建一篇博文？</p>
-<p>control+c断开刚刚的链接，新建一篇博文：<br><code>npx hexo n &quot;发布第一篇个人博客&quot;</code><br><img src="/images/%E6%96%B0%E5%BB%BA%E5%8D%9A%E6%96%87.png" alt="新建博文"></p>
-<p>5、更改博文内容：  </p>
-<p>接下来就是更改博文内容，我直接使用Visual Studio Code打开文章了，找到<code>~/Desktop/blog/source/_posts</code>，里面有你创建的文章，直接做修改即可，不熟悉MarkDown格式的可以看看这个网站：<br><a href="https://www.runoob.com/markdown/md-tutorial.html">https://www.runoob.com/markdown/md-tutorial.html</a><br>（不难，现在我就在写这玩意）<br>顺便附上一张Visual Studio Code的图，超好用。<br><img src="/images/Visual_Studio_Code.png" alt="Visual Studio Code"></p>
-<p>6、同样在blog2文件下：<br>清理public文件夹：<code>npx hexo clean</code><br>生成：<code>npx hexo g</code><br>启动：<code>npx hexo s</code><br><img src="/images/%E6%9B%B4%E6%96%B0.png" alt=" "><br>刷新<a href="http://localhost:4000/%E5%88%99%E7%9C%8B%E5%88%B0%EF%BC%8C%E5%86%85%E5%AE%B9%E5%B7%B2%E7%BB%8F%E6%9B%B4%E6%96%B0%E4%B8%8A%E5%8E%BB%E4%BA%86%EF%BC%9A">http://localhost:4000/则看到，内容已经更新上去了：</a><br><img src="/images/%E5%B7%B2%E6%9B%B4%E6%96%B0.png" alt=" "></p>
-<h2 id="四、部署至github"><a href="#四、部署至github" class="headerlink" title="四、部署至github"></a>四、部署至github</h2><p>如果你想让别人也能访问到（废话），那么免费的方法就是把网站部署至github。</p>
-<p>1、登录github：<br><a href="https://github.com/">https://github.com/</a><br>没账号的新建一个（这个我不用教了吧），新创建一个仓库：<br><img src="/images/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt=" "><br>仓库名必须为：<code>昵称.github.io</code>，输入描述（也可以不输），创建（记得选公开）：<br><img src="/images/%E4%BB%93%E5%BA%93%E9%80%89%E6%8B%A9.png" alt=" "><br>（因为不能重名，而且我已经有了，所以有红色感叹号，你们不会）</p>
-<p>2、命令行下，ctrl+c，退出命令。还是在blog2目录下，安装git部署插件<br><code>npm install hexo-deployer-git --save</code><br><img src="/images/%E5%AE%89%E8%A3%85git%E9%83%A8%E7%BD%B2%E6%8F%92%E4%BB%B6.png" alt=" "></p>
-<p>3、更改blog2文件夹根目录下，_config.yml的配置：<br><img src="/images/%E8%A6%81%E6%9B%BF%E6%8D%A2%E7%9A%84%E8%AE%BE%E7%BD%AE.png" alt="要被替换的设置"><br>把这些替换为：  </p>
+<h3 id="如何新建一篇博文？"><a href="#如何新建一篇博文？" class="headerlink" title="如何新建一篇博文？"></a>如何新建一篇博文？</h3><p>control+c断开刚刚的链接，新建一篇博文：<br><code>npx hexo n &quot;发布第一篇个人博客&quot;</code><br><img src="/images/%E6%96%B0%E5%BB%BA%E5%8D%9A%E6%96%87.png" alt="新建博文"></p>
+<h3 id="更改博文内容："><a href="#更改博文内容：" class="headerlink" title="更改博文内容："></a>更改博文内容：</h3><p>接下来就是更改博文内容，我直接使用Visual Studio Code打开文章了，找到<code>~/Desktop/blog/source/_posts</code>，里面有你创建的文章，直接做修改即可，不熟悉MarkDown格式的可以看看这个网站：<br><a href="https://www.runoob.com/markdown/md-tutorial.html">https://www.runoob.com/markdown/md-tutorial.html</a><br>（不难，现在我就在写这玩意）<br>顺便附上一张Visual Studio Code的图，超好用。<br><img src="/images/Visual_Studio_Code.png" alt="Visual Studio Code"></p>
+<h3 id="在本地预览："><a href="#在本地预览：" class="headerlink" title="在本地预览："></a>在本地预览：</h3><p>同样在blog2文件下：<br>清理public文件夹：<code>npx hexo clean</code><br>生成：<code>npx hexo g</code><br>启动：<code>npx hexo s</code><br><img src="/images/%E6%9B%B4%E6%96%B0.png" alt=" "><br>刷新<a href="http://localhost:4000/%E5%88%99%E7%9C%8B%E5%88%B0%EF%BC%8C%E5%86%85%E5%AE%B9%E5%B7%B2%E7%BB%8F%E6%9B%B4%E6%96%B0%E4%B8%8A%E5%8E%BB%E4%BA%86%EF%BC%9A">http://localhost:4000/则看到，内容已经更新上去了：</a><br><img src="/images/%E5%B7%B2%E6%9B%B4%E6%96%B0.png" alt=" "></p>
+<h2 id="部署至github"><a href="#部署至github" class="headerlink" title="部署至github"></a>部署至github</h2><p>如果你想让别人也能访问到（废话），那么免费的方法就是把网站部署至github。</p>
+<h3 id="登录github："><a href="#登录github：" class="headerlink" title="登录github："></a>登录github：</h3><p><a href="https://github.com/">https://github.com/</a><br>没账号的新建一个（这个我不用教了吧），新创建一个仓库：<br><img src="/images/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt=" "><br>仓库名必须为：<code>昵称.github.io</code>，输入描述（也可以不输），创建（记得选公开）：<br><img src="/images/%E4%BB%93%E5%BA%93%E9%80%89%E6%8B%A9.png" alt=" "><br>（因为不能重名，而且我已经有了，所以有红色感叹号，你们不会）</p>
+<h3 id="安装git部署插件"><a href="#安装git部署插件" class="headerlink" title="安装git部署插件"></a>安装git部署插件</h3><p>命令行下，ctrl+c，退出命令。还是在blog2目录下，安装git部署插件<br><code>npm install hexo-deployer-git --save</code><br><img src="/images/%E5%AE%89%E8%A3%85git%E9%83%A8%E7%BD%B2%E6%8F%92%E4%BB%B6.png" alt=" "></p>
+<h3 id="更改配置"><a href="#更改配置" class="headerlink" title="更改配置"></a>更改配置</h3><p>更改blog2文件夹根目录下，_config.yml的配置：<br><img src="/images/%E8%A6%81%E6%9B%BF%E6%8D%A2%E7%9A%84%E8%AE%BE%E7%BD%AE.png" alt="要被替换的设置"><br>把这些替换为：  </p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@github.com:yourname/yourname.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
-<p>记得把yourname替换成你的昵称。<br>4、设置SSH密钥：</p>
-<h3 id="Mac"><a href="#Mac" class="headerlink" title="Mac:"></a>Mac:</h3><p>首先检测自己电脑是否存在 SSH key：<br>在生成SSH密钥之前，您可以检查是否有任何现有的SSH密钥。<br>1、打开终端</p>
-<p>2、输入ls -al ~&#x2F;.ssh以查看是否存在现有SSH密钥：  </p>
+<p>记得把yourname替换成你的昵称。  </p>
+<h3 id="设置SSH密钥："><a href="#设置SSH密钥：" class="headerlink" title="设置SSH密钥："></a>设置SSH密钥：</h3><h4 id="首先检测自己电脑是否存在-SSH-key："><a href="#首先检测自己电脑是否存在-SSH-key：" class="headerlink" title="首先检测自己电脑是否存在 SSH key："></a>首先检测自己电脑是否存在 SSH key：</h4><p>在生成SSH密钥之前，您可以检查是否有任何现有的SSH密钥。  </p>
+<h5 id="打开终端"><a href="#打开终端" class="headerlink" title="打开终端"></a>打开终端</h5><h5 id="查看是否存在现有SSH密钥"><a href="#查看是否存在现有SSH密钥" class="headerlink" title="查看是否存在现有SSH密钥"></a>查看是否存在现有SSH密钥</h5><p>输入命令以查看是否存在现有SSH密钥⬇️：  </p>
 <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="built_in">ls</span> -al ~/.ssh</span><br><span class="line"><span class="comment"># 列出.ssh目录中的文件(如果存在的话)</span></span><br></pre></td></tr></table></figure>
-<p>3、检查目录列表以查看您是否已拥有公共SSH密钥。<br>·如果你本地没有生成的话<br>  终端上面会显示：No such file or directory</p>
+<h5 id="检查目录列表以查看您是否已拥有公共SSH密钥。"><a href="#检查目录列表以查看您是否已拥有公共SSH密钥。" class="headerlink" title="检查目录列表以查看您是否已拥有公共SSH密钥。"></a>检查目录列表以查看您是否已拥有公共SSH密钥。</h5><p>·如果你本地没有生成的话<br>  终端上面会显示：No such file or directory</p>
 <p>·如果已经存在的话<br>  则会显示 id_rsa 和 id_rsa.pub</p>
-<p>如果本地没有的话，我们要自己生成新的SSH秘钥（如果存在，请跳过这步）<br>1）在终端输入下面的命令，记得替换您的GitHub电子邮件地址,这将使用提供的电子邮件作为标签创建一个新的ssh密钥。</p>
+<p>如果本地没有的话，我们要自己生成新的SSH秘钥（如果存在，请跳过4.4.1.）  </p>
+<h6 id="创建一个新的ssh密钥"><a href="#创建一个新的ssh密钥" class="headerlink" title="创建一个新的ssh密钥"></a>创建一个新的ssh密钥</h6><p>在终端输入下面的命令，记得替换您的GitHub电子邮件地址,这将使用提供的电子邮件作为标签创建一个新的ssh密钥。</p>
 <figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">&quot;your_email@example.com&quot;</span></span><br><span class="line"><span class="comment">#&quot;your_email@example.com&quot;为示例邮箱，此处应填写为你在github上面注册的邮箱。</span></span><br></pre></td></tr></table></figure>
 <p>显示：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Generating public/private rsa key pair.</span><br></pre></td></tr></table></figure>
 
-<p>2）当系统提示您“输入要保存密钥的文件”时，按Enter键使用默认文件位置。  </p>
+<h6 id="系统提示您“输入要保存密钥的文件”时"><a href="#系统提示您“输入要保存密钥的文件”时" class="headerlink" title="系统提示您“输入要保存密钥的文件”时"></a>系统提示您“输入要保存密钥的文件”时</h6><p>当系统提示您“输入要保存密钥的文件”时，按Enter键使用默认文件位置。  </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]</span><br></pre></td></tr></table></figure>
 
-<p>3）在提示符下，键入安全密码（强烈不建议设置密码，否则你上传一次就要输一次，特别麻烦。。。）。可以连续Enter，不设置密码。  </p>
+<h6 id="键入安全密码"><a href="#键入安全密码" class="headerlink" title="键入安全密码"></a>键入安全密码</h6><p>在提示符下，键入安全密码（强烈不建议设置密码，否则你上传一次就要输一次，特别麻烦。。。）。可以连续Enter，不设置密码。  </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase): [Type a passphrase]</span><br><span class="line">Enter same passphrase again: [Type passphrase again]</span><br></pre></td></tr></table></figure>
 
 <p>成功后，终端显示：  </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Your identitification has been saved in /Users/xxx/.ssh/id_rsa.</span><br><span class="line">Your public key has been saved in /user/xxx/id_rsa.pub.</span><br><span class="line">the key fingerprint is xxxxxxxxxx…….xxxxxxxx your_email@example.com</span><br><span class="line">The key’s randomart image is:</span><br></pre></td></tr></table></figure>
 <p><img src="/images/ssh%E7%94%9F%E6%88%90.jpg" alt=" "></p>
-<p>1、将SSH密钥添加到ssh-agent<br>1）在后台启动ssh-agent<br><code>eval &quot;$(ssh-agent -s)&quot;</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; Agent pid 59566</span><br></pre></td></tr></table></figure>
-<p>终端输入命令：<br><code>ssh-add -K ~/.ssh/id_rsa</code></p>
-<p>如果设置密码，此时会要求输入passphrase（输入步骤二中的passphrase就好）<br>成功后，终端显示：</p>
+<h4 id="将SSH密钥添加到ssh-agent"><a href="#将SSH密钥添加到ssh-agent" class="headerlink" title="将SSH密钥添加到ssh-agent"></a>将SSH密钥添加到ssh-agent</h4><h5 id="在后台启动ssh-agent"><a href="#在后台启动ssh-agent" class="headerlink" title="在后台启动ssh-agent"></a>在后台启动ssh-agent</h5><h6 id="输入命令："><a href="#输入命令：" class="headerlink" title="输入命令："></a>输入命令：</h6><p><code>eval &quot;$(ssh-agent -s)&quot;</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; Agent pid xxxxx</span><br></pre></td></tr></table></figure>
+<h6 id="终端输入命令："><a href="#终端输入命令：" class="headerlink" title="终端输入命令："></a>终端输入命令：</h6><p><code>ssh-add -K ~/.ssh/id_rsa</code></p>
+<p>如果设置密码，此时会要求输入passphrase（输入步骤二中你当时设置的passphrase就好）<br>成功后，终端显示：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Identity added: /Users/xxx/.ssh/id_rsa (your_email@example.com)</span><br></pre></td></tr></table></figure>
-<p>2、添加SSH key 到Github 上<br>1）将SSH密钥复制到剪贴板。</p>
-<p><code>pbcopy &lt; ~/.ssh/id_rsa.pub</code><br>复制id_rsa.pub的内容到剪贴板<br>提示：如果pbcopy不起作用，您可以找到隐藏.ssh文件夹，在文本编辑器中打开id_rsa.pub文件，然后将文件内容复制到剪贴板。</p>
-<p>2）打开Github,在任意页面的右上角，单击您的个人资料照片，然后单击“Settings”。<br><img src="/images/settings.jpg" alt=" "></p>
-<p>在用户设置侧栏中，单击“SSH and GPG keys”。<br><img src="/images/%E7%94%A8%E6%88%B7%E8%AE%BE%E7%BD%AE.jpg" alt=" "></p>
-<p>单击“ New SSH key”<br><img src="/images/New_SSH_key.jpg" alt=" "></p>
-<p>在“Title”字段中添加描述性标签，Key字段中粘贴您复制的id_rsa.pub内容。最后点击“Add SSH key”<br><img src="/images/ssh.jpg" alt=" "></p>
-<p>最后请确认您的GitHub密码。<br><img src="/images/ssh_.jpg" alt=" "></p>
-<p>如何检测SSH key<br>终端输入命令：<br><code>ssh git@github.com</code></p>
-<p>验证SSH key是否有权限访问 你的 github，输入“yes”</p>
+<h4 id="添加SSH-key-到Github-上"><a href="#添加SSH-key-到Github-上" class="headerlink" title="添加SSH key 到Github 上"></a>添加SSH key 到Github 上</h4><h5 id="将SSH密钥复制到剪贴板"><a href="#将SSH密钥复制到剪贴板" class="headerlink" title="将SSH密钥复制到剪贴板"></a>将SSH密钥复制到剪贴板</h5><p><code>pbcopy &lt; ~/.ssh/id_rsa.pub</code><br>复制id_rsa.pub的内容到剪贴板<br>提示：如果pbcopy不起作用，您可以找到隐藏.ssh文件夹（路径~&#x2F;.ssh&#x2F;，在文本编辑器中打开id_rsa.pub文件，然后将文件内容复制到剪贴板。</p>
+<h5 id="找到“Settings”"><a href="#找到“Settings”" class="headerlink" title="找到“Settings”"></a>找到“Settings”</h5><p>打开Github,在任意页面的右上角，单击您的个人资料照片，然后单击“Settings”。<br><img src="/images/settings.jpg" alt=" "></p>
+<h5 id="找到“SSH-and-GPG-keys”"><a href="#找到“SSH-and-GPG-keys”" class="headerlink" title="找到“SSH and GPG keys”"></a>找到“SSH and GPG keys”</h5><p>在用户设置侧栏中，单击“SSH and GPG keys”。<br><img src="/images/%E7%94%A8%E6%88%B7%E8%AE%BE%E7%BD%AE.jpg" alt=" "></p>
+<h5 id="单击“-New-SSH-key”"><a href="#单击“-New-SSH-key”" class="headerlink" title="单击“ New SSH key”"></a>单击“ New SSH key”</h5><p><img src="/images/New_SSH_key.jpg" alt=" "></p>
+<h5 id="添加密钥"><a href="#添加密钥" class="headerlink" title="添加密钥"></a>添加密钥</h5><p>在“Title”字段中添加描述性标签，Key字段中粘贴您复制的id_rsa.pub内容。最后点击“Add SSH key”<br><img src="/images/ssh.jpg" alt=" "></p>
+<h5 id="确认您的GitHub密码"><a href="#确认您的GitHub密码" class="headerlink" title="确认您的GitHub密码"></a>确认您的GitHub密码</h5><p>最后请确认您的GitHub密码。<br><img src="/images/ssh_.jpg" alt=" "></p>
+<h3 id="如何检测SSH-key"><a href="#如何检测SSH-key" class="headerlink" title="如何检测SSH key"></a>如何检测SSH key</h3><h4 id="终端输入命令"><a href="#终端输入命令" class="headerlink" title="终端输入命令"></a>终端输入命令</h4><p><code>ssh git@github.com</code></p>
+<p>验证SSH key是否有权限访问你的github，输入“yes”</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">The authenticity of host ‘github.com (13.250.177.223)’ can’t be established.</span><br><span class="line">RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.</span><br><span class="line">Are you sure you want to continue connecting (yes/no)? yes</span><br></pre></td></tr></table></figure>
 <p>成功会显示为</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Hi you name! You’ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
