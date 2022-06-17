@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>发布第一篇个人博客</title>
-    <url>/posts/387162d6.html</url>
-    <content><![CDATA[<h2 id="我终于做出了这个！！！！"><a href="#我终于做出了这个！！！！" class="headerlink" title="我终于做出了这个！！！！"></a>我终于做出了这个！！！！</h2><p>（没什么可以写的。。。）</p>
-<p>如果你也想做一个像这样的个人博客，你可以参考以下网址：</p>
-<p>参考网址：</p>
-<p><a href="https://hexo.io/zh-cn/docs/index.html">https://hexo.io/zh-cn/docs/index.html</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/114195340">https://zhuanlan.zhihu.com/p/114195340</a></p>
-<p><a href="https://charlieshaoqi.github.io/">https://charlieshaoqi.github.io/</a></p>
-]]></content>
-      <categories>
-        <category>网页</category>
-      </categories>
-      <tags>
-        <tag>原创</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何用Hexo+Github Page搭建免费博客</title>
     <url>/posts/d2331b68.html</url>
     <content><![CDATA[<h2 id="了解Hexo"><a href="#了解Hexo" class="headerlink" title="了解Hexo"></a>了解Hexo</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。<br>（好吧，Hexo官网是这么讲的）  </p>
@@ -82,6 +65,23 @@
 ]]></content>
       <categories>
         <category>教程</category>
+      </categories>
+      <tags>
+        <tag>原创</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>发布第一篇个人博客</title>
+    <url>/posts/387162d6.html</url>
+    <content><![CDATA[<h2 id="我终于做出了这个！！！！"><a href="#我终于做出了这个！！！！" class="headerlink" title="我终于做出了这个！！！！"></a>我终于做出了这个！！！！</h2><p>（没什么可以写的。。。）</p>
+<p>如果你也想做一个像这样的个人博客，你可以参考以下网址：</p>
+<p>参考网址：</p>
+<p><a href="https://hexo.io/zh-cn/docs/index.html">https://hexo.io/zh-cn/docs/index.html</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/114195340">https://zhuanlan.zhihu.com/p/114195340</a></p>
+<p><a href="https://charlieshaoqi.github.io/">https://charlieshaoqi.github.io/</a></p>
+]]></content>
+      <categories>
+        <category>网页</category>
       </categories>
       <tags>
         <tag>原创</tag>
