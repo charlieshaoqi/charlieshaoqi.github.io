@@ -101,15 +101,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/canvas-tetris/index.html</loc>
-    
-    <lastmod>2018-12-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/canvas-tetris/LICENSE.html</loc>
     
     <lastmod>2018-12-23</lastmod>
@@ -120,6 +111,15 @@
   
   <url>
     <loc>http://example.com/canvas-tetris/README.html</loc>
+    
+    <lastmod>2018-12-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/canvas-tetris/index.html</loc>
     
     <lastmod>2018-12-23</lastmod>
     
