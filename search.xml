@@ -77,7 +77,9 @@
 <p>验证SSH key是否有权限访问你的github，输入“yes”</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">The authenticity of host ‘github.com (13.250.177.223)’ can’t be established.</span><br><span class="line">RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.</span><br><span class="line">Are you sure you want to continue connecting (yes/no)? yes</span><br></pre></td></tr></table></figure>
 <p>成功会显示为</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Hi you name! You’ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Hi you name! You’ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
+<h2 id="安装NexT主题"><a href="#安装NexT主题" class="headerlink" title="安装NexT主题"></a>安装NexT主题</h2><h3 id="了解NexT主题"><a href="#了解NexT主题" class="headerlink" title="了解NexT主题"></a>了解NexT主题</h3><p>NexT主题是Hexo个人博客的众多主题中最受欢迎的主题之一，它的介绍：</p>
+]]></content>
       <categories>
         <category>教程</category>
       </categories>
